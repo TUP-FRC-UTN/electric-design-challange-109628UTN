@@ -1,5 +1,43 @@
 {
-  "budgets": [],
+  "budgets": [
+    {
+      "id": "a171",
+      "client": "Cristian Perez",
+      "date": "2024-10-24",
+      "modules": [
+        {
+          "moduleType": "1",
+          "zone": "Comedor"
+        },
+        {
+          "moduleType": "4",
+          "zone": "Cocina"
+        }
+      ]
+    },
+    {
+      "id": "1527",
+      "client": "Pedro Pedro",
+      "date": "2024-10-25",
+      "modules": [
+        {
+          "moduleType": "4",
+          "zone": "Dormitorio"
+        }
+      ]
+    },
+    {
+      "id": "0aa8",
+      "client": "Test",
+      "date": "2024-10-25",
+      "modules": [
+        {
+          "moduleType": "4",
+          "zone": "Dormitorio"
+        }
+      ]
+    }
+  ],
   "module-types": [
     {
       "id": "1",
