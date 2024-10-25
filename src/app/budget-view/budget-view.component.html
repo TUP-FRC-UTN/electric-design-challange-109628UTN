@@ -1,1 +1,18 @@
 <!-- BUILD IT FROM HERE https://getbootstrap.com/docs/5.3/components/card/#sizing -->
+<div class="d-flex justify-content-center">
+    @if(budget) {
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title text-center">Detalle del presupuesto</h5>
+          @for (item of budget.modules; track $index) {
+            <h6 class="card-subtitle mb-2 text-body-secondary text-center">{{item.zone}}</h6>
+            <p class="card-text text-center">
+              {{item.moduleType.name}} ({{item.moduleType.slots}} slots) - 
+              {{item.moduleType.price | currency}}
+            </p>
+          }
+        </div>
+      </div>
+    }
+  </div>
+  
